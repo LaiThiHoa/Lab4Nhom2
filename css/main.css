@@ -1,3 +1,6 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 .grid {
   display: grid;
   grid-template-columns: 70% 30%;
@@ -16,9 +19,11 @@
 .content .grid2 {
   display: grid;
   grid-template-columns: 50% 50%;
+  padding-right: 20px;
 }
 .content {
   border: 1px solid;
+  padding: 10px 15px;
 }
 .tab {
   display: inline-block;
@@ -26,7 +31,7 @@
   background-color: white;
   cursor: pointer;
   border-bottom: 1px solid rgb(233, 219, 219);
- 
+
   /* border-right:none; */
 }
 
@@ -45,57 +50,137 @@
 .tab-content.active {
   display: block;
 }
-.grid .left{
+.grid .left {
   border: 1px solid gray;
 }
-.tab-container{
+.tab-container {
   display: flex;
- ;
-
 }
-.icon{
+.icon {
   padding: 10px 20px;
   padding-right: 5px;
 }
-.header{
+.header {
   display: flex;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.795);
   padding: 10px 15px;
   border-radius: 8px;
 }
-.header a{
+.header a {
   text-decoration: none;
   color: rgb(197, 179, 179);
- 
- 
 }
-.header .mulesoft{
+.header .mulesoft {
   padding-left: 50px;
 }
-.header .leave{
- padding-left: 300px;
+.header .leave {
+  padding-left: 200px;
 }
-.header .your-progress{
+.header .your-progress {
+  padding-left: 50px;
+}
+.header .share {
   padding-left: 50px;
 
-}
-.header .share{
-  padding-left: 40px;
-  
   text-align: center;
-
- 
 }
 
-.header .more{
+.header .more {
   padding-left: 40px;
-}.ri-star-smile-fill{
+}
+.ri-star-smile-fill {
   color: rgb(177, 177, 15);
 }
-.ri-star-fill ,.ri-award-fill, .ri-more-2-fill,.ri-arrow-right-s-line,.ri-arrow-down-s-line{
+.ri-star-fill,
+.ri-award-fill,
+.ri-more-2-fill,
+.ri-arrow-right-s-line {
   color: white;
 }
-.header a:hover{
+.header a:hover {
   color: rgb(241, 211, 171);
-  
 }
+.video {
+  width: 100%;
+  height: 330px;
+}
+.header {
+  background-color: rgb(90, 78, 78);
+  width: 97%;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+}
+.container {
+  width: 100%;
+  margin: 0px auto;
+}
+.main-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.main-menu a {
+  text-decoration: none;
+  color: aliceblue;
+  display: block;
+}
+.mule {
+  padding-left: 50px;
+}
+.leave {
+  padding-left: 300px;
+}
+.your-progress {
+  padding-left: 60px;
+}
+.share {
+  padding-left: 60px;
+}
+.ri-more-2-fill {
+  padding-left: 40px;
+}
+.menu-right {
+  padding: 10px 15px;
+}
+.menu-right a,
+.dropdown-btn {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid rgb(219, 214, 214);
+  padding: 10px 15px;
+  font-weight: bold;
+}
+.menu-right a:hover,
+.dropdown-btn:hover {
+  background-color: #CFCFCF;
+}
+.dropdown-container {
+  display: none;      
+  background-color: #f4f5f8;
+}
+button {
+  width: 100%;
+  height: 70px;
+  border: 1px solid rgb(241, 234, 234);
+  background-color: #E8E8E8;
+}
+.menu-right {
+  width: 97%;
+  padding-left: 0px;
+  padding-top: 0%;
+}
+.ri-arrow-down-s-line {
+  padding-left: 50px;
+  font-size: 20px;
+}
+.hour{
+  font-weight: 100;
+}
+
